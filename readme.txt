@@ -24,7 +24,7 @@ This section describes how to install the plugin and get it working.
 
 1. Upload the plugin to `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Visit the listing of your posts : http://www.example.com/wp-admin/edit.php
+3. Visit the listing of your posts : `/wp-admin/edit.php`
 
 == Frequently Asked Questions ==
 
@@ -36,7 +36,22 @@ At the moment, we show only the number of facebook likes, the number of retweets
 
 No.
 
+= I do see the columns, but I don't see any number, what's the problem ? =
 
+The plugin needs you to have Javascript activated. This is how the 'shares' are collected. So, if you don't see any number appearing (like those in the screenshot), try to check that your javascript works.
+
+= Can I contribute to this wonderful plugin? =
+
+Of course. 
+If you are a programmer you can fork me on : https://github.com/tanzaho/wp-admin-social-shares
+
+If you have any recommendations, feel free to use the the 'support' page on Wordpress to submit them (http://wordpress.org/support/plugin/admin-social-shares)
+You can also rate the plugin if you like it.
+
+
+== Screenshots ==
+
+1. This is what you will get in your admin section after installing the plugin. The number of shares will be printed after the page is loaded.
 
 == Changelog ==
 
