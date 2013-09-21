@@ -1,7 +1,7 @@
 === WordiZ - Admin Social Shares ===
 Contributors: tanzaho
 Donate link: http://www.wordiz.it
-Tags: social,share, sharing, seo, smo, facebook, twitter, google+, retweet
+Tags: social, share, sharing, seo, smo, facebook, twitter, google+, retweet, Post, admin, 
 Requires at least: 3.1
 Tested up to: 3.6
 Stable tag: 1.1
@@ -14,7 +14,7 @@ Plugin that shows the number of +1, tweets and facebook likes for every post in 
 
 A plugin that adds three columns to the listing of your articles on your administration. It shows the number of +1, tweets and facebook likes for every post. Like this you quickly see which post received a lot of social attention.
 
-No settings required, just activate the plugin and browse your posts : http://www.example.com/wp-admin/edit.php
+No settings required, just activate the plugin and browse your posts : `/wp-admin/edit.php`
 
 The plugin does not keep the social count in memory to save speed and to always be up to date.
 
@@ -34,15 +34,15 @@ At the moment, we show only the number of facebook likes, the number of retweets
 
 = Can I add special social networks metrics? =
 
-No.
+This will be done in the future releases.
 
 = I do see the columns, but I don't see any number, what's the problem ? =
 
 The plugin needs you to have Javascript activated. This is how the 'shares' are collected. So, if you don't see any number appearing (like those in the screenshot), try to check that your javascript works.
 
-= Can I contribute to this wonderful plugin? =
+= Can I contribute to this 'wonderful' plugin? =
 
-Of course. 
+Of course and you are welcome. 
 If you are a programmer you can fork me on : https://github.com/tanzaho/wp-admin-social-shares
 
 If you have any recommendations, feel free to use the the 'support' page on Wordpress to submit them (http://wordpress.org/support/plugin/admin-social-shares)
@@ -55,6 +55,5 @@ You can also rate the plugin if you like it.
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 =
 * First upload of the plugin
-

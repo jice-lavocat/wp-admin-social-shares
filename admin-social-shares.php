@@ -23,17 +23,12 @@ $js_txt.="	var iddivTwit='#twitter".$randnb."';";
 $js_txt.="	var iddivFb='#facebook".$randnb."';";
 $js_txt.="	var iddivGp='#plusones".$randnb."';";
 
-//$js_txt.="alert('Hello');";
 $js_txt.="	getfbcount(url,iddivFb);";
 $js_txt.="	gettwcount(url,iddivTwit);";
 $js_txt.="	getgpcount(url,iddivGp);";
 $js_txt.="	 });";
 $js_txt.="</script>";
 
-
-/*$js_txt="<script type='text/javascript'>";
-$js_txt.="jQuery(document).ready(function(){alert('Hello');});";
-$js_txt.="</script>";*/
 return $js_txt;
 }
  // Add the columns to the admin listing of posts
@@ -47,9 +42,9 @@ $defaults['nb_googleplus'] = '+1';
 return $defaults; 
 } 
 add_filter('manage_posts_columns', 'my_custom_columns');
-add_action('manage_posts_custom_column', 'my_show_columns'); 
+add_action('manage_posts_custom_column', 'show_ass_columns'); 
 
-function my_show_columns($name) {
+function show_ass_columns($name) {
  global $post; $mypost = $post->ID; 
  $randid=rand();
  $url=get_permalink();
@@ -74,7 +69,5 @@ function wordiz_init($hook) {
 	if( $hook != 'edit.php' ) //do not import outside edit.php
 		return;
 	wp_enqueue_script( 'wordiz_social_shares', plugins_url( '/js/wordiz_social_shares.js', __FILE__ ));
-        //wp_enqueue_script('wordiz_social_shares', plugins_url('/js/wordiz_social_shares.js', array('jquery')));
-	//enqueue_script('jquery');
 }
 ?>
